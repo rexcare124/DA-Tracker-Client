@@ -11,8 +11,20 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        "dm-sans": ["DM Sans", "-apple-system", "Roboto", "Helvetica", "sans-serif"],
-        roboto: ["Roboto", "-apple-system", "Roboto", "Helvetica", "sans-serif"],
+        "dm-sans": [
+          "DM Sans",
+          "-apple-system",
+          "Roboto",
+          "Helvetica",
+          "sans-serif",
+        ],
+        roboto: [
+          "Roboto",
+          "-apple-system",
+          "Roboto",
+          "Helvetica",
+          "sans-serif",
+        ],
         inter: ["Inter", "-apple-system", "Roboto", "Helvetica", "sans-serif"],
       },
       colors: {
@@ -42,6 +54,10 @@ const config: Config = {
         "dot-gray": "#9CA3AF",
         "modal-bg": "#232D3E",
         "warning-bg": "#EBEDF0",
+        "california-blue": "#1E3A8A",
+        "california-gold": "#F59E0B",
+        "fire-red": "#DC2626",
+        "emergency-orange": "#EA580C",
         primary: {
           "50": "#fcfcfc",
           "100": "#f1f1f2",
